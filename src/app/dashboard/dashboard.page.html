@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Chalet List</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-searchbar placeholder="Filter Schedules" debounce="500" animated></ion-searchbar>
+  <swiper
+      [slidesPerView]="3"
+      [spaceBetween]="50"
+      (swiper)="onSwiper($event)"
+      (slideChange)="onSlideChange()"
+    >
+      <ng-template swiperSlide>asfsafsaf</ng-template>
+      <ng-template swiperSlide>asfsafsa</ng-template>
+      <ng-template swiperSlide>ahngfsjnsf</ng-template>
+    </swiper>
+</ion-content>
