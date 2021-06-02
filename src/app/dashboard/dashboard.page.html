@@ -6,14 +6,117 @@
 
 <ion-content>
   <ion-searchbar placeholder="Filter Schedules" debounce="500" animated></ion-searchbar>
-  <swiper
-      [slidesPerView]="3"
-      [spaceBetween]="50"
-      (swiper)="onSwiper($event)"
-      (slideChange)="onSlideChange()"
-    >
-      <ng-template swiperSlide>asfsafsaf</ng-template>
-      <ng-template swiperSlide>asfsafsa</ng-template>
-      <ng-template swiperSlide>ahngfsjnsf</ng-template>
+  <!-- Recommended Chalet -->
+  <ion-card>
+    <ion-header>
+      <ion-card-title>
+        Recommended Chalet
+      </ion-card-title>
+    </ion-header>
+    <swiper class="mySwiper">
+
+      <ng-template swiperSlide>
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Mawar Chalet</ion-card-title>
+          </ion-card-header>
+
+          <ion-card-content>
+            Keep close to Nature's heart... and break clear away, once in awhile,
+            and climb a mountain or spend a week in the woods. Wash your spirit clean.
+          </ion-card-content>
+        </ion-card>
+      </ng-template>
+      <ng-template swiperSlide>
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Bunga Chalet</ion-card-title>
+          </ion-card-header>
+
+          <ion-card-content>
+            Keep close to Nature's heart... and break clear away, once in awhile,
+            and climb a mountain or spend a week in the woods. Wash your spirit clean.
+          </ion-card-content>
+        </ion-card>
+      </ng-template>
+      <ng-template swiperSlide>
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Concord Chalet</ion-card-title>
+          </ion-card-header>
+
+          <ion-card-content>
+            Keep close to Nature's heart... and break clear away, once in awhile,
+            and climb a mountain or spend a week in the woods. Wash your spirit clean.
+          </ion-card-content>
+        </ion-card>
+      </ng-template>
     </swiper>
+  </ion-card>
+  <!-- Nearest Chalet  -->
+  <ion-card>
+    <ion-header>
+      <ion-card-title>
+        Nearest Chalet For You
+      </ion-card-title>
+    </ion-header>
+    <swiper class="mySwiper">
+
+      <ng-template swiperSlide>
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Mawar Chalet</ion-card-title>
+          </ion-card-header>
+
+          <ion-card-content>
+            Keep close to Nature's heart... and break clear away, once in awhile,
+            and climb a mountain or spend a week in the woods. Wash your spirit clean.
+          </ion-card-content>
+        </ion-card>
+      </ng-template>
+      <ng-template swiperSlide>
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Bunga Chalet</ion-card-title>
+          </ion-card-header>
+
+          <ion-card-content>
+            Keep close to Nature's heart... and break clear away, once in awhile,
+            and climb a mountain or spend a week in the woods. Wash your spirit clean.
+          </ion-card-content>
+        </ion-card>
+      </ng-template>
+      <ng-template swiperSlide>
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title>Concord Chalet</ion-card-title>
+          </ion-card-header>
+
+          <ion-card-content>
+            Keep close to Nature's heart... and break clear away, once in awhile,
+            and climb a mountain or spend a week in the woods. Wash your spirit clean.
+          </ion-card-content>
+        </ion-card>
+      </ng-template>
+    </swiper>
+  </ion-card>
+  <!-- By State -->
+  <ion-card>
+    <ion-header>
+      <ion-card-title>
+        By State
+      </ion-card-title>
+    </ion-header>
+    <swiper class="stateSwiper">
+      <ng-template swiperSlide>
+        <ion-button color="light">Melaka</ion-button>
+      </ng-template>
+      <ng-template swiperSlide>
+        <ion-button color="light">Selangor</ion-button>
+      </ng-template>
+      <ng-template swiperSlide>
+        <ion-button color="light">Johor</ion-button>
+      </ng-template>
+    </swiper>
+  </ion-card>
 </ion-content>

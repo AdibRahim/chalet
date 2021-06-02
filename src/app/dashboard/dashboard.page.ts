@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
-import SwiperCore from 'swiper/core';
+import { SwiperComponent } from "swiper/angular";
 
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.page.html',
-  styleUrls: ['./dashboard.page.scss'],
+  styleUrls: ['./dashboard.page.scss']
 })
 
 export class DashboardPage implements OnInit {
